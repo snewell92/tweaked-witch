@@ -1,0 +1,368 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "346046A71D537172"
+	icon: "minecraft:grass_block"
+	id: "1226CF9B32B2E083"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/questsbanner.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgdeath.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "cottagewitch:textures/quest_ui/bgfreebies.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.5d
+			y: 2.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Congratulations on entering the Overworld for the first time! It's good to have you here. You can &6use these quests as a sort of guide&r to help you through mods you might not be familiar with!"
+				""
+				"This quest grants you an &bAkashic Tome&r, which contains guidebooks to mods in the pack."
+				"It also gives you a &bSack&r, which is like a very poor &bShulker Box&r - but hey, it's better than nothing!"
+				""
+				"&lIf you ever lose your Akashic Tome&r, you can easily &6craft a new one&r with a &bBook&r and a &bStick&r."
+				""
+				"Your most useful tool is &lJEI&r, a mod that appears on the right of your inventory screen. It will let you view all the items in the modpack, and their recipes. &6Please explore this to see what is on offer&r!"
+			]
+			icon: "minecraft:grass_block"
+			id: "6C6635F6D9644BB7"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/say Hi, @p! Thanks for playing! Please check out your quests with the - key, or by opening your Quest Book!"
+					icon: "minecraft:grass_block"
+					id: "4B2B69209045245C"
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "6EAB9BDBE6FFD03E"
+					item: {
+						Count: 1b
+						id: "akashictome:tome"
+						tag: {
+							"akashictome:data": {
+								alexsmobs: {
+									Count: 1b
+									id: "alexsmobs:animal_dictionary"
+								}
+								ars_nouveau: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+								babyfat: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "babyfat:the_book_of_baby_fat"
+									}
+								}
+								byg: {
+									Count: 1b
+									id: "byg:biomepedia"
+								}
+								caupona: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "caupona:book"
+									}
+								}
+								create_central_kitchen: {
+									Count: 1b
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "create_central_kitchen:cooking_guide"
+								}
+								deeperdarker: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "deeperdarker:wanderers_notebook"
+									}
+								}
+								ftbquests: {
+									Count: 1b
+									id: "ftbquests:book"
+								}
+								lexicon: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "lexicon:lexicon"
+									}
+								}
+								mythicmounts: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "mythicmounts:mythical_mounts"
+									}
+								}
+								sculktransporting: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "sculktransporting:guide"
+									}
+								}
+								solsweetpotato: {
+									Count: 1b
+									id: "solsweetpotato:food_book"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26FB6A19A3855EAF"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Welcome in!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "732E6FD9F7F8662E"
+				type: "dimension"
+			}]
+			title: "Begin your World"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"So, you died. It happens to us all, eventually! Don't worry, all your items are safe in a &agrave&r marking your last resting place."
+				""
+				"You can use your &bGrave Finder&r to locate your last death, as well as the &aminimap marker&r that's automatically placed there. Then, &6right click on your grave&r to recover all your items and gear."
+				""
+				"Your &aexperience&r, however, drops near your grave, so make sure to collect it!"
+			]
+			id: "47643C0C8D4BCBD9"
+			rewards: [
+				{
+					id: "78AFDC62398091E8"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29BB4C4A6EF50D42"
+					item: {
+						Count: 1b
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Handbook for the recently deceased"
+			tasks: [{
+				id: "412E4F0BC4FEF92B"
+				item: "enigmaticgraves:grave_finder"
+				type: "item"
+			}]
+			title: "Baby's First Death"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Let's face it, sometimes you want to live somewhere cute right away. And in survival, you rarely have the resources to do so."
+				""
+				"So, if you'd like a &aprefabricated starter house&r, then &6tick off this quest&r and &6redeem the reward&r. If not, you can safely ignore this! Both methods are perfectly valid. :)"
+			]
+			id: "21AD64E594528F4D"
+			rewards: [{
+				id: "799218BAE959D719"
+				item: "prefab:item_house"
+				type: "item"
+			}]
+			subtitle: "Cute house starter pack"
+			tasks: [{
+				id: "76B325FD29C28A89"
+				title: "Build Me a House"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Would you like a Mushroom Hat? Cool! Click the box above."
+				"Be careful, because if you place it on the ground &dit will turn into a pumpkin&r. And it doesn't even need to be midnight."
+				""
+				"This quest is &dRepeatable!&r"
+			]
+			id: "3DFB7EF14F053582"
+			rewards: [{
+				command: "/give @p minecraft:carved_pumpkin{CustomModelData:1}"
+				icon: {
+					Count: 1b
+					id: "minecraft:carved_pumpkin"
+					tag: {
+						CustomModelData: 1
+					}
+				}
+				id: "34D0D294831901C4"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D42AEB901AE8033"
+				title: "I want a mushroom hat!!"
+				type: "checkmark"
+			}]
+			title: "Mushroom Hat"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["Congratulations on cheating death! Sorry about your totem, though."]
+			id: "76D5DB6E94816C80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A03B2AB64A80391"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			shape: "octagon"
+			tasks: [{
+				advancement: "minecraft:adventure/totem_of_undying"
+				criterion: ""
+				id: "7E4BBEB34174442D"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["50 deaths, and you're just getting started! Congrats...I guess? Anyway, here &6take this Totem&r, it seems like you need it."]
+			id: "3FAE926346F1E576"
+			rewards: [{
+				id: "7338219FAAA9587F"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			subtitle: "YOU DIED"
+			tasks: [{
+				id: "08BCF1C0F17EF916"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 50
+			}]
+			title: "Die 50 Times"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47643C0C8D4BCBD9"]
+			description: ["Wow, you went a long while without dying! Nice work, buddy. Keep it up!"]
+			id: "2508051D98B7CB06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "528C9AFE009AD0F3"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7F4314516CA5C0D4"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 999999
+			}]
+			title: "Survival Skills"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Need to get somewhere in a hurry? Why not try &aslinging&r? The &bSlime Sling&r, when &6pointed at the ground and drawn&r, will shoot the player in the opposite direction upon release."
+				""
+				"You can achieve &aquite a bit of air time&r this way! And the &bSlime Boots&r make it so you...you know...&adon't die from fall damage&r. A winning combination!"
+			]
+			id: "7232C9D413054886"
+			rewards: [
+				{
+					id: "59138A1AE98F4A94"
+					item: "usefulslime:slime_boots"
+					type: "item"
+				}
+				{
+					id: "146D300604AF13CC"
+					item: "usefulslime:slime_sling"
+					type: "item"
+				}
+			]
+			subtitle: "slimy transport"
+			tasks: [{
+				id: "474CE1AAC07815BD"
+				title: "The Only Way to \"Fly\""
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "457F26BFBE27EC1C"
+			invisible: true
+			secret: true
+			tasks: [{
+				id: "0B36B5F230ABE083"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["a very good place to start"]
+	title: "Beginnings"
+}

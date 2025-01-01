@@ -1,0 +1,29 @@
+{
+	// If the mod should only run on dedicated servers. When enabled it's not sent when in a singleplayer world.
+	"onlyRunOnDedicatedServers": true,
+	// Whether an empty line should be send before to first message to separate the welcome from other chat messages that might be sent.
+	"sendEmptyLineBeforeFirstMessage": true,
+	// The first message a player will receive when joining the world. Can be left empty.
+	"messageOneText": "Welcome to Hexhaven! Here are the updates!",
+	// 0: black, 1: dark_blue, 2: dark_green, 3: dark_aqua, 4: dark_red, 5: dark_purple, 6: gold, 7: gray, 8: dark_gray, 9: blue, 10: green, 11: aqua, 12: red, 13: light_purple, 14: yellow, 15: white
+	// min: 0, max: 15
+	"messageOneColourIndex": 6,
+	// If a link is entered here, the complete message will be clickable.
+	"messageOneOptionalURL": "",
+	// The second message a player will receive when joining the world. Can be left empty.
+	"messageTwoText": "-New to the world are Mythic Mounts! Time to hunt for some cool new creatures spawning in the wild.
+-Joy of Painting has also been added to the modpack.",
+	// 0: black, 1: dark_blue, 2: dark_green, 3: dark_aqua, 4: dark_red, 5: dark_purple, 6: gold, 7: gray, 8: dark_gray, 9: blue, 10: green, 11: aqua, 12: red, 13: light_purple, 14: yellow, 15: white
+	// min: 0, max: 15
+	"messageTwoColourIndex": 11,
+	// If a link is entered here, the complete message will be clickable.
+	"messageTwoOptionalURL": "",
+	// The third message a player will receive when joining the world. Can be left empty.
+	"messageThreeText": "Local News:
+-Coming soon... the Heart of Hexhaven Revival Ceremony! The shopping district is getting a refresh. Keep an eye on the Discord for more updates.",
+	// 0: black, 1: dark_blue, 2: dark_green, 3: dark_aqua, 4: dark_red, 5: dark_purple, 6: gold, 7: gray, 8: dark_gray, 9: blue, 10: green, 11: aqua, 12: red, 13: light_purple, 14: yellow, 15: white
+	// min: 0, max: 15
+	"messageThreeColourIndex": 13,
+	// If a link is entered here, the complete message will be clickable.
+	"messageThreeOptionalURL": ""
+}
