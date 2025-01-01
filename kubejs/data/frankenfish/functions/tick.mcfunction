@@ -1,0 +1,1 @@
+execute as @e[type=#frankenfish:lightning] at @s run function #frankenfish:fish_detector
